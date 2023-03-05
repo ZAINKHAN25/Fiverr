@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    padding: 2px 10px;
+    position: fixed;
+    top:0;
+    width: 100vw;
+}
+
+#companylogo{
+    padding-left: 1%;
+}
+
+#companylogokid{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(46, 250, 0);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+#inputofnav{
+    /* border-radius: 5px; */
+    width: 400px;
+    height: 50px;
+    padding: 0px 8px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    background-color: rgb(203, 245, 255);
+    color: rgb(0, 0, 0);
+}
+
+#inputofnav:focus{
+    border: none;
+}
+
+#inputofnav:visited{
+    border: none;
+}
+
+
+#inputofnav::placeholder{
+    color: rgb(123, 123, 123);
+}
+
+#inputkaaboinnav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#magnifiyinglassofnav{
+    padding: 17px 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#magnifiyinglassofnav:hover{
+    padding: 14px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: larger;
+    background-color: rgb(191, 238, 240);
+    color: rgb(0, 0, 0);
+}
+
+.navkefalto{
+    margin: 5px 8px;
+    font-size: large;
+    color: white;
+}
+
+.navkefalto:hover{
+    color: aquamarine;
+}
+
+#Join{
+    background-color: transparent;
+    color: aquamarine;
+    border: 2px solid aquamarine;
+}
+
+#Join:hover{
+    background-color: aquamarine;
+    color: white;
+    font-weight: bold;
+}
+
+#baraaboofworkingara{
+    width: 100vw;
+    height: 80vh;
+    background-color: red;
+    animation: firstanimation 2s ease-out 0s infinite;
+}
+
+
+@keyframes firstanimation{
+    50%{
+    background-image:linear-gradient(yellow,red);
+}
+    100%{
+        background-image:linear-gradient(red,yellow);
+
+    }
+}
+
+#sponserkaabo{
+    width: 100%;
+    background-color: lightcyan;
+    padding: 30px;
+}
+
+#sponser{
+    font-size: xx-large;
+    color: lightslategray;
+    margin-right: 30px;
+}
+
+#professionalservice{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.slide {
+    display: flex;
+    width: 400%;
+    animation: slide 10s infinite;
+}
+  
+.slide img {
+    margin: 5px 0.5%;
+    width: 20vw;
+    height: 40vh;
+    flex-shrink: 0;
+}
+
+.carousel-control-prev {
+    left: -4% !important;
+    color: black !important;
+}
